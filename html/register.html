@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | PET & HOME</title>
+  <link rel="stylesheet" href="../css/register.css">
+</head>
+<body class="auth-page">
+  <header class="site-header">
+  <div class="container navbar">
+    <span class="logo">PET & HOME</span>
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>Shop</li>
+        <li>About & Contact</li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <span>Account</span>
+      <span>Cart (0)</span>
+    </div>
+  </div>
+</header>
+  <main class="auth-main">
+    <div class="auth-layout">
+      <img src="../images/auth-dog.png" alt="Golden retriever puppy"class="auth-pet">
+      <section class="auth-card">
+        <h1>Create Account</h1>
+        <p class="auth-intro">
+          Join PET & HOME and find everyday essentials for your pet.
+        </p>
+        <form class="auth-form" method="post">
+          <div class="form-group">
+            <label for="full-name">Full name</label>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              class="form-input"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-input"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="form-input"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="confirm-password">Confirm password</label>
+
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              class="form-input"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="pet-type">Pet type</label>
+
+            <select
+              id="pet-type"
+              name="pet-type"
+              class="form-input"
+              required
+            >
+              <option value="">Select your pet type</option>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p class="field-title">Pet gender</p>
+            <div class="gender-options">
+              <label>
+                <input type="radio" name="pet-gender" value="female">
+                Female
+              </label>
+              <label>
+                <input type="radio" name="pet-gender" value="male">
+                Male
+              </label>
+            </div>
+          </div>
+          <label class="auth-option">
+            <input type="checkbox" id="show-password">Show passwords </label>
+          <label class="auth-option">
+            <input type="checkbox" name="terms" required>
+            I agree to the terms and conditions.
+          </label>
+          <button type="button" class="auth-button">
+            Register
+          </button>
+        </form>
+        <p class="auth-switch">
+          Already have an account? <a href="login.html">Log in</a>
+        </p>
+      </section>
+      <img src="../images/auth-cat.png" alt="Kitten beside a bowl and toys" class="auth-pet">
+    </div>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <span class="logo">PET & HOME</span>
+
+      <p>
+        Thoughtful pet accessories<br>
+        for home and beyond.
+      </p>
+    </div>
+
+    <nav class="footer-column">
+      <h2>Shop</h2>
+
+      <ul>
+        <li>Sleep</li>
+        <li>Travel</li>
+        <li>Eat</li>
+        <li>Play</li>
+      </ul>
+    </nav>
+
+    <nav class="footer-column">
+      <h2>Help</h2>
+
+      <ul>
+        <li>About & Contact</li>
+        <li>Login</li>
+        <li>Register</li>
+      </ul>
+    </nav>
+    <div class="footer-newsletter">
+      <h2>Stay in touch</h2>
+      <p>Get the latest updates and offers from PET & HOME.</p>
+      <form class="newsletter-form" method="post">
+        <label for="newsletter-email">Your email address</label>
+
+        <div class="newsletter-fields">
+          <input
+            type="email"
+            id="newsletter-email"
+            name="email"
+            placeholder="Your email address"
+            required
+          >
+          <button type="submit" disabled>Sign up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
