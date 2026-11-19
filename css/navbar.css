@@ -1,0 +1,62 @@
+.menu-header,
+.menu-header * {
+  box-sizing: border-box;
+}
+
+.menu-header {
+  width: 100%;
+  background: #20120e;
+  color: #fffaf0;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1300px;
+  min-height: 70px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.menu-logo {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.menu-links {
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+}
+
+.menu-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-actions {
+  display: flex;
+  gap: 18px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.menu-links li {
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu-links .active {
+  color: #dfbd98;
+  border-bottom-color: #dfbd98;
+}
