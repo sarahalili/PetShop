@@ -60,3 +60,130 @@
   color: #dfbd98;
   border-bottom-color: #dfbd98;
 }
+.site-footer {
+  width: 100%;
+  margin: 0;
+  padding: 40px 0;
+  background-color: #20120e;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.site-footer .footer-grid {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+.site-footer .footer-brand {
+  width: 24%;
+}
+
+.site-footer .footer-brand .logo {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.site-footer .footer-brand p {
+  margin-top: 16px;
+}
+
+/* KOLONAT SHOP DHE HELP */
+
+.site-footer .footer-column {
+  width: 14%;
+}
+
+.site-footer .footer-newsletter {
+  width: 30%;
+}
+
+.site-footer .footer-column h2,
+.site-footer .footer-newsletter h2 {
+  margin: 0 0 16px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+.site-footer .footer-column ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer .footer-column li {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.site-footer .footer-newsletter p {
+  margin-bottom: 16px;
+}
+
+.site-footer .newsletter-form {
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer .newsletter-form label {
+  display: block;
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.site-footer .newsletter-fields {
+  display: flex;
+  gap: 8px;
+}
+
+.site-footer .newsletter-fields input {
+  flex: 1;
+  min-width: 0;
+  height: 42px;
+  margin: 0;
+  padding: 0 12px;
+
+  border: 1px solid #d7c6b5;
+  border-radius: 0;
+  background-color: #f8f1e6;
+  color: #352015;
+
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.site-footer .newsletter-fields button {
+  height: 42px;
+  margin: 0;
+  padding: 0 18px;
+
+  border: 1px solid #d7c6b5;
+  border-radius: 0;
+  background-color: #20120e;
+  color: white;
+
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
