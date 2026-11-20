@@ -130,3 +130,127 @@ a {
 .add-to-cart:hover {
   background-color: #3a2014;
 }
+.categories {
+  margin: 0;
+  padding: 0;
+}
+
+.categories .category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+.categories .category-card {
+  width: 50%;
+  height: 550px;
+  padding: 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  text-align: center;
+}
+
+.categories .category-card img {
+  display: none;
+}
+
+.categories .category-card:nth-child(1) {
+  background-image: url("../images/category-sleep.jfif");
+}
+.categories .category-card:nth-child(2) {
+  background-image: url("../images/category-travel.jfif");
+}
+.categories .category-card:nth-child(3) {
+  background-image: url("../images/category-eat.jfif");
+}
+
+.categories .category-card:nth-child(4) {
+  background-image: url("../images/category-play.jfif");
+}
+.categories .category-note {
+  width: 100%;
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.categories .category-title {
+  width: 100%;
+  margin: 208px 0 0;
+
+  font-family: Georgia, serif;
+  font-size: 38px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+
+
+
+.about-preview {
+  padding: 40px 0;
+  background-color: #f8f1e6;
+}
+
+.about-layout {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-image {
+  width: 50%;
+  height: 350px;
+
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("../images/about-dog.jfif");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-image img {
+  display: none;
+}
+
+.about-content {
+  width: 50%;
+}
+
+.about-content h2 {
+  margin: 0 0 15px;
+
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.about-content p {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-content .text-link {
+  color: #5c602c;
+  font-size: 16px;
+  text-decoration: underline;
+}
